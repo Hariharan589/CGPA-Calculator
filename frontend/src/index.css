@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Make all buttons and button-like inputs rounded for a consistent UI */
+button,
+.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.remove-btn,
+.add-btn,
+.calculate-btn,
+.back-btn,
+.add-semester-btn,
+.calculate-cgpa-btn,
+.remove-semester-btn {
+  border-radius: 6px;
+}
+
+/* default button look */
+button, .btn {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  padding: 8px 12px;
+}

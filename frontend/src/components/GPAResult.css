@@ -1,0 +1,13 @@
+.gpa-result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    border-radius: 5px;
+}
+
+.gpa-score {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}

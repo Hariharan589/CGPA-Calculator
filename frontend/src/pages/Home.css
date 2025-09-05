@@ -1,0 +1,60 @@
+
+.home-header {
+	display: flex;
+	justify-content: space-between; /* title left, button right */
+	align-items: center;
+	gap: 12px;
+	margin: 8px 0 12px;
+}
+
+.home-title {
+	font-size: 18px;
+	color: #2c3e50;
+	font-weight: 700;
+}
+
+.add-semester-btn {
+	background-color: #0a5bd7;
+	color: #fff;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 18px; /* increased rounding */
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.add-semester-btn:hover {
+	background-color: #094db8;
+}
+
+.empty-state {
+	color: #718096;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.home-actions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.calculate-cgpa-btn {
+	background-color: #e67e22;
+	color: white;
+	border: none;
+	padding: 10px 18px;
+	border-radius: 12px;
+	font-size: 16px;
+	cursor: pointer;
+	max-width: 260px;
+	width: 100%;
+	margin: 0 auto;
+}
